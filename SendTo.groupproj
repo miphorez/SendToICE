@@ -1,0 +1,34 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{43bb0f12-7412-4d9c-83ad-c9522d57ebe0}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Projects Include="SendToICE.dproj" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+<BorlandProject xmlns=""><Default.Personality></Default.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Target Name="SendToICE">
+    <MSBuild Projects="SendToICE.dproj" Targets="" />
+  </Target>
+  <Target Name="SendToICE:Clean">
+    <MSBuild Projects="SendToICE.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="SendToICE:Make">
+    <MSBuild Projects="SendToICE.dproj" Targets="Make" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="SendToICE" />
+  </Target>
+  <Target Name="Clean">
+    <CallTarget Targets="SendToICE:Clean" />
+  </Target>
+  <Target Name="Make">
+    <CallTarget Targets="SendToICE:Make" />
+  </Target>
+  <Import Condition="Exists('$(MSBuildBinPath)\Borland.Group.Targets')" Project="$(MSBuildBinPath)\Borland.Group.Targets" />
+</Project>

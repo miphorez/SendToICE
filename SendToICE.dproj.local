@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009.10.13 22:56:35.890.dproj,D:\Documents and Settings\Dmitry\Мои документы\RAD Studio\Projects\Project1.dproj=C:\Source\-=INSTALL=-\SendDOCfileToICE\SendDOCfileToICE.dproj</Transaction>
+    <Transaction>2009.10.13 22:59:37.968.dproj,C:\Source\-=INSTALL=-\SendDOCfileToICE\SendDOCfileToICE.dproj=C:\Source\-=INSTALL=-\SendDOCfileToICE\SendToICE.dproj</Transaction>
+    <Transaction>2009.12.12 15:43:06.656.pas,c:\Source\-=INSTALL=-\SendToICE\Unit1.pas=C:\Source\-=INSTALL=-\SendToICE\frmToICE.pas</Transaction>
+    <Transaction>2009.12.12 15:43:06.656.dfm,c:\Source\-=INSTALL=-\SendToICE\Unit1.dfm=C:\Source\-=INSTALL=-\SendToICE\frmToICE.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
